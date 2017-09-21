@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.example"
+		module="scala_pact_provider_2.12"
+		revision="0.0.1"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170921110350"/>
+	<dependencies>
+		<module organisation="org.slf4j" name="slf4j-simple">
+			<revision name="1.6.4" status="release" pubdate="20111031224548" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="28">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4296" time="0" location="/home/ubuntu/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.6.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.pom"/>
+				<caller organisation="com.example" name="scala_pact_provider_2.12" conf="compile, runtime" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="slf4j-simple" type="jar" ext="jar" status="no" details="" size="7662" time="0" location="/home/ubuntu/.ivy2/cache/org.slf4j/slf4j-simple/jars/slf4j-simple-1.6.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.4/slf4j-simple-1.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.1" status="release" pubdate="20161205110619" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/home/ubuntu/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.pom"/>
+				<caller organisation="io.argonaut" name="argonaut_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="6.2-RC2"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3538697" time="0" location="/home/ubuntu/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.http4s" name="http4s-argonaut_2.12">
+			<revision name="0.15.0a" status="release" pubdate="20161201034955" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://http4s.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4024" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/http4s-argonaut_2.12/ivy-0.15.0a.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/http4s/http4s-argonaut_2.12/0.15.0a/http4s-argonaut_2.12-0.15.0a.pom"/>
+				<caller organisation="com.example" name="scala_pact_provider_2.12" conf="compile, runtime" rev="0.15.0a" rev-constraint-default="0.15.0a" rev-constraint-dynamic="0.15.0a" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="http4s-argonaut_2.12" type="jar" ext="jar" status="no" details="" size="16673" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/http4s-argonaut_2.12/jars/http4s-argonaut_2.12-0.15.0a.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/http4s/http4s-argonaut_2.12/0.15.0a/http4s-argonaut_2.12-0.15.0a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.argonaut" name="argonaut_2.12">
+			<revision name="6.2-RC2" status="release" pubdate="20161119204934" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://argonaut.io" extra-info.apiURL="http://argonaut.io/scaladocs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="BSD-3-Clause" url="http://www.opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3027" time="0" location="/home/ubuntu/.ivy2/cache/io.argonaut/argonaut_2.12/ivy-6.2-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/argonaut/argonaut_2.12/6.2-RC2/argonaut_2.12-6.2-RC2.pom"/>
+				<caller organisation="org.http4s" name="http4s-argonaut_2.12" conf="default, compile, runtime, master" rev="6.2-RC2" rev-constraint-default="6.2-RC2" rev-constraint-dynamic="6.2-RC2" callerrev="0.15.0a"/>
+				<artifacts>
+					<artifact name="argonaut_2.12" type="jar" ext="jar" status="no" details="" size="776441" time="0" location="/home/ubuntu/.ivy2/cache/io.argonaut/argonaut_2.12/jars/argonaut_2.12-6.2-RC2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/argonaut/argonaut_2.12/6.2-RC2/argonaut_2.12-6.2-RC2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.http4s" name="http4s-jawn_2.12">
+			<revision name="0.15.0a" status="release" pubdate="20161201034936" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://http4s.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3890" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/http4s-jawn_2.12/ivy-0.15.0a.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/http4s/http4s-jawn_2.12/0.15.0a/http4s-jawn_2.12-0.15.0a.pom"/>
+				<caller organisation="org.http4s" name="http4s-argonaut_2.12" conf="default, compile, runtime, master" rev="0.15.0a" rev-constraint-default="0.15.0a" rev-constraint-dynamic="0.15.0a" callerrev="0.15.0a"/>
+				<artifacts>
+					<artifact name="http4s-jawn_2.12" type="jar" ext="jar" status="no" details="" size="5712" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/http4s-jawn_2.12/jars/http4s-jawn_2.12-0.15.0a.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/http4s/http4s-jawn_2.12/0.15.0a/http4s-jawn_2.12-0.15.0a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.http4s" name="jawn-streamz_2.12">
+			<revision name="0.10.1a" status="release" pubdate="20161105034824" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/rossabaker/jawn-streamz" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3220" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/jawn-streamz_2.12/ivy-0.10.1a.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/http4s/jawn-streamz_2.12/0.10.1a/jawn-streamz_2.12-0.10.1a.pom"/>
+				<caller organisation="org.http4s" name="http4s-jawn_2.12" conf="compile, runtime" rev="0.10.1a" rev-constraint-default="0.10.1a" rev-constraint-dynamic="0.10.1a" callerrev="0.15.0a"/>
+				<artifacts>
+					<artifact name="jawn-streamz_2.12" type="jar" ext="jar" status="no" details="" size="11879" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/jawn-streamz_2.12/jars/jawn-streamz_2.12-0.10.1a.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/http4s/jawn-streamz_2.12/0.10.1a/jawn-streamz_2.12-0.10.1a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="jawn-parser_2.12">
+			<revision name="0.10.3" status="release" pubdate="20161104040347" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/non/jawn" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2879" time="0" location="/home/ubuntu/.ivy2/cache/org.spire-math/jawn-parser_2.12/ivy-0.10.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.10.3/jawn-parser_2.12-0.10.3.pom"/>
+				<caller organisation="org.http4s" name="jawn-streamz_2.12" conf="compile, runtime" rev="0.10.3" rev-constraint-default="0.10.3" rev-constraint-dynamic="0.10.3" callerrev="0.10.1a"/>
+				<artifacts>
+					<artifact name="jawn-parser_2.12" type="jar" ext="jar" status="no" details="" size="74238" time="0" location="/home/ubuntu/.ivy2/cache/org.spire-math/jawn-parser_2.12/jars/jawn-parser_2.12-0.10.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.10.3/jawn-parser_2.12-0.10.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.http4s" name="http4s-blaze-server_2.12">
+			<revision name="0.15.0a" status="release" pubdate="20161201035031" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://http4s.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3772" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/http4s-blaze-server_2.12/ivy-0.15.0a.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/http4s/http4s-blaze-server_2.12/0.15.0a/http4s-blaze-server_2.12-0.15.0a.pom"/>
+				<caller organisation="com.example" name="scala_pact_provider_2.12" conf="compile, runtime" rev="0.15.0a" rev-constraint-default="0.15.0a" rev-constraint-dynamic="0.15.0a" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="http4s-blaze-server_2.12" type="jar" ext="jar" status="no" details="" size="64405" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/http4s-blaze-server_2.12/jars/http4s-blaze-server_2.12-0.15.0a.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/http4s/http4s-blaze-server_2.12/0.15.0a/http4s-blaze-server_2.12-0.15.0a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.http4s" name="http4s-server_2.12">
+			<revision name="0.15.0a" status="release" pubdate="20161201034911" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://http4s.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3856" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/http4s-server_2.12/ivy-0.15.0a.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/http4s/http4s-server_2.12/0.15.0a/http4s-server_2.12-0.15.0a.pom"/>
+				<caller organisation="org.http4s" name="http4s-blaze-server_2.12" conf="default, compile, runtime, master" rev="0.15.0a" rev-constraint-default="0.15.0a" rev-constraint-dynamic="0.15.0a" callerrev="0.15.0a"/>
+				<artifacts>
+					<artifact name="http4s-server_2.12" type="jar" ext="jar" status="no" details="" size="208435" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/http4s-server_2.12/jars/http4s-server_2.12-0.15.0a.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/http4s/http4s-server_2.12/0.15.0a/http4s-server_2.12-0.15.0a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.http4s" name="http4s-dsl_2.12">
+			<revision name="0.15.0a" status="release" pubdate="20161201035007" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://http4s.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3725" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/http4s-dsl_2.12/ivy-0.15.0a.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/http4s/http4s-dsl_2.12/0.15.0a/http4s-dsl_2.12-0.15.0a.pom"/>
+				<caller organisation="com.example" name="scala_pact_provider_2.12" conf="compile, runtime" rev="0.15.0a" rev-constraint-default="0.15.0a" rev-constraint-dynamic="0.15.0a" callerrev="0.0.1"/>
+				<artifacts>
+					<artifact name="http4s-dsl_2.12" type="jar" ext="jar" status="no" details="" size="200883" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/http4s-dsl_2.12/jars/http4s-dsl_2.12-0.15.0a.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/http4s/http4s-dsl_2.12/0.15.0a/http4s-dsl_2.12-0.15.0a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.http4s" name="http4s-blaze-core_2.12">
+			<revision name="0.15.0a" status="release" pubdate="20161201034927" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://http4s.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3779" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/http4s-blaze-core_2.12/ivy-0.15.0a.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/http4s/http4s-blaze-core_2.12/0.15.0a/http4s-blaze-core_2.12-0.15.0a.pom"/>
+				<caller organisation="org.http4s" name="http4s-blaze-server_2.12" conf="default, compile, runtime, master" rev="0.15.0a" rev-constraint-default="0.15.0a" rev-constraint-dynamic="0.15.0a" callerrev="0.15.0a"/>
+				<artifacts>
+					<artifact name="http4s-blaze-core_2.12" type="jar" ext="jar" status="no" details="" size="59809" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/http4s-blaze-core_2.12/jars/http4s-blaze-core_2.12-0.15.0a.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/http4s/http4s-blaze-core_2.12/0.15.0a/http4s-blaze-core_2.12-0.15.0a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.http4s" name="blaze-http_2.12">
+			<revision name="0.12.4" status="release" pubdate="20161105030514" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/http4s/blaze" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3791" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/blaze-http_2.12/ivy-0.12.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/http4s/blaze-http_2.12/0.12.4/blaze-http_2.12-0.12.4.pom"/>
+				<caller organisation="org.http4s" name="http4s-blaze-core_2.12" conf="compile, runtime" rev="0.12.4" rev-constraint-default="0.12.4" rev-constraint-dynamic="0.12.4" callerrev="0.15.0a"/>
+				<artifacts>
+					<artifact name="blaze-http_2.12" type="jar" ext="jar" status="no" details="" size="268183" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/blaze-http_2.12/jars/blaze-http_2.12-0.12.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/http4s/blaze-http_2.12/0.12.4/blaze-http_2.12-0.12.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.0.5" status="release" pubdate="20161028231007" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3137" time="0" location="/home/ubuntu/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.pom"/>
+				<caller organisation="org.http4s" name="blaze-http_2.12" conf="compile, runtime" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="0.12.4"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="bundle" ext="jar" status="no" details="" size="548430" time="0" location="/home/ubuntu/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty.alpn" name="alpn-api">
+			<revision name="1.1.2.v20150522" status="release" pubdate="20150522080832" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="3360" time="0" location="/home/ubuntu/.ivy2/cache/org.eclipse.jetty.alpn/alpn-api/ivy-1.1.2.v20150522.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/alpn/alpn-api/1.1.2.v20150522/alpn-api-1.1.2.v20150522.pom"/>
+				<caller organisation="org.http4s" name="blaze-http_2.12" conf="compile, runtime" rev="1.1.2.v20150522" rev-constraint-default="1.1.2.v20150522" rev-constraint-dynamic="1.1.2.v20150522" callerrev="0.12.4"/>
+				<artifacts>
+					<artifact name="alpn-api" type="jar" ext="jar" status="no" details="" size="5561" time="0" location="/home/ubuntu/.ivy2/cache/org.eclipse.jetty.alpn/alpn-api/jars/alpn-api-1.1.2.v20150522.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/alpn/alpn-api/1.1.2.v20150522/alpn-api-1.1.2.v20150522.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="hpack">
+			<revision name="v1.0.1" status="release" pubdate="20150611181723" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4898" time="0" location="/home/ubuntu/.ivy2/cache/com.twitter/hpack/ivy-v1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/hpack/v1.0.1/hpack-v1.0.1.pom"/>
+				<caller organisation="org.http4s" name="blaze-http_2.12" conf="compile, runtime" rev="v1.0.1" rev-constraint-default="v1.0.1" rev-constraint-dynamic="v1.0.1" callerrev="0.12.4"/>
+				<artifacts>
+					<artifact name="hpack" type="jar" ext="jar" status="no" details="" size="29330" time="0" location="/home/ubuntu/.ivy2/cache/com.twitter/hpack/jars/hpack-v1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/hpack/v1.0.1/hpack-v1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.http4s" name="blaze-core_2.12">
+			<revision name="0.12.4" status="release" pubdate="20161105030504" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/http4s/blaze" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3046" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/blaze-core_2.12/ivy-0.12.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/http4s/blaze-core_2.12/0.12.4/blaze-core_2.12-0.12.4.pom"/>
+				<caller organisation="org.http4s" name="blaze-http_2.12" conf="compile, runtime" rev="0.12.4" rev-constraint-default="0.12.4" rev-constraint-dynamic="0.12.4" callerrev="0.12.4"/>
+				<artifacts>
+					<artifact name="blaze-core_2.12" type="jar" ext="jar" status="no" details="" size="278807" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/blaze-core_2.12/jars/blaze-core_2.12-0.12.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/http4s/blaze-core_2.12/0.12.4/blaze-core_2.12-0.12.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.http4s" name="http4s-core_2.12">
+			<revision name="0.15.0a" status="release" pubdate="20161201034921" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://http4s.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4644" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/http4s-core_2.12/ivy-0.15.0a.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/http4s/http4s-core_2.12/0.15.0a/http4s-core_2.12-0.15.0a.pom"/>
+				<caller organisation="org.http4s" name="http4s-argonaut_2.12" conf="default, compile, runtime, master" rev="0.15.0a" rev-constraint-default="0.15.0a" rev-constraint-dynamic="0.15.0a" callerrev="0.15.0a"/>
+				<caller organisation="org.http4s" name="http4s-jawn_2.12" conf="compile, runtime" rev="0.15.0a" rev-constraint-default="0.15.0a" rev-constraint-dynamic="0.15.0a" callerrev="0.15.0a"/>
+				<caller organisation="org.http4s" name="http4s-dsl_2.12" conf="default, compile, runtime, master" rev="0.15.0a" rev-constraint-default="0.15.0a" rev-constraint-dynamic="0.15.0a" callerrev="0.15.0a"/>
+				<caller organisation="org.http4s" name="http4s-server_2.12" conf="compile, runtime" rev="0.15.0a" rev-constraint-default="0.15.0a" rev-constraint-dynamic="0.15.0a" callerrev="0.15.0a"/>
+				<caller organisation="org.http4s" name="http4s-blaze-core_2.12" conf="compile, runtime" rev="0.15.0a" rev-constraint-default="0.15.0a" rev-constraint-dynamic="0.15.0a" callerrev="0.15.0a"/>
+				<artifacts>
+					<artifact name="http4s-core_2.12" type="jar" ext="jar" status="no" details="" size="1527574" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/http4s-core_2.12/jars/http4s-core_2.12-0.15.0a.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/http4s/http4s-core_2.12/0.15.0a/http4s-core_2.12-0.15.0a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz.stream" name="scalaz-stream_2.12">
+			<revision name="0.8.6a" status="release" pubdate="20161102143448" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalaz/scalaz-stream" extra-info.apiURL="http://docs.typelevel.org/api/scalaz-stream/stable/0.8.6a/doc/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3564" time="0" location="/home/ubuntu/.ivy2/cache/org.scalaz.stream/scalaz-stream_2.12/ivy-0.8.6a.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/stream/scalaz-stream_2.12/0.8.6a/scalaz-stream_2.12-0.8.6a.pom"/>
+				<caller organisation="org.http4s" name="http4s-core_2.12" conf="compile, runtime" rev="0.8.6a" rev-constraint-default="0.8.6a" rev-constraint-dynamic="0.8.6a" callerrev="0.15.0a"/>
+				<caller organisation="org.http4s" name="jawn-streamz_2.12" conf="compile, runtime" rev="0.8.6a" rev-constraint-default="0.8.6a" rev-constraint-dynamic="0.8.6a" callerrev="0.10.1a"/>
+				<artifacts>
+					<artifact name="scalaz-stream_2.12" type="bundle" ext="jar" status="no" details="" size="670101" time="0" location="/home/ubuntu/.ivy2/cache/org.scalaz.stream/scalaz-stream_2.12/bundles/scalaz-stream_2.12-0.8.6a.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/stream/scalaz-stream_2.12/0.8.6a/scalaz-stream_2.12-0.8.6a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scodec" name="scodec-bits_2.12">
+			<revision name="1.1.2" status="release" pubdate="20161102120012" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/scodec/scodec-bits" extra-info.apiURL="http://scodec.org/api/scodec-bits/1.1.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Three-clause BSD-style" url="https://github.com/scodec/scodec-bits/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2993" time="0" location="/home/ubuntu/.ivy2/cache/org.scodec/scodec-bits_2.12/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scodec/scodec-bits_2.12/1.1.2/scodec-bits_2.12-1.1.2.pom"/>
+				<caller organisation="org.scalaz.stream" name="scalaz-stream_2.12" conf="compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.8.6a"/>
+				<artifacts>
+					<artifact name="scodec-bits_2.12" type="bundle" ext="jar" status="no" details="" size="226751" time="0" location="/home/ubuntu/.ivy2/cache/org.scodec/scodec-bits_2.12/bundles/scodec-bits_2.12-1.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scodec/scodec-bits_2.12/1.1.2/scodec-bits_2.12-1.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-concurrent_2.12">
+			<revision name="7.2.7" status="release" pubdate="20161029001550" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2949" time="0" location="/home/ubuntu/.ivy2/cache/org.scalaz/scalaz-concurrent_2.12/ivy-7.2.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.7/scalaz-concurrent_2.12-7.2.7.pom"/>
+				<caller organisation="org.scalaz.stream" name="scalaz-stream_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="0.8.6a"/>
+				<artifacts>
+					<artifact name="scalaz-concurrent_2.12" type="bundle" ext="jar" status="no" details="" size="177242" time="0" location="/home/ubuntu/.ivy2/cache/org.scalaz/scalaz-concurrent_2.12/bundles/scalaz-concurrent_2.12-7.2.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.7/scalaz-concurrent_2.12-7.2.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-effect_2.12">
+			<revision name="7.2.7" status="release" pubdate="20161029001605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2790" time="0" location="/home/ubuntu/.ivy2/cache/org.scalaz/scalaz-effect_2.12/ivy-7.2.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.7/scalaz-effect_2.12-7.2.7.pom"/>
+				<caller organisation="org.scalaz" name="scalaz-concurrent_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="7.2.7"/>
+				<artifacts>
+					<artifact name="scalaz-effect_2.12" type="bundle" ext="jar" status="no" details="" size="296498" time="0" location="/home/ubuntu/.ivy2/cache/org.scalaz/scalaz-effect_2.12/bundles/scalaz-effect_2.12-7.2.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.7/scalaz-effect_2.12-7.2.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-core_2.12">
+			<revision name="7.2.7" status="release" pubdate="20161029001521" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2639" time="0" location="/home/ubuntu/.ivy2/cache/org.scalaz/scalaz-core_2.12/ivy-7.2.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.7/scalaz-core_2.12-7.2.7.pom"/>
+				<caller organisation="org.scalaz" name="scalaz-effect_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="7.2.7"/>
+				<caller organisation="org.http4s" name="http4s-core_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="0.15.0a"/>
+				<caller organisation="org.scalaz" name="scalaz-concurrent_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="7.2.7"/>
+				<caller organisation="org.scalaz.stream" name="scalaz-stream_2.12" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="0.8.6a"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.12" type="bundle" ext="jar" status="no" details="" size="7664750" time="0" location="/home/ubuntu/.ivy2/cache/org.scalaz/scalaz-core_2.12/bundles/scalaz-core_2.12-7.2.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.7/scalaz-core_2.12-7.2.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled_2.12">
+			<revision name="2.1.3" status="release" pubdate="20161103165444" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3122" time="0" location="/home/ubuntu/.ivy2/cache/org.parboiled/parboiled_2.12/ivy-2.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/parboiled/parboiled_2.12/2.1.3/parboiled_2.12-2.1.3.pom"/>
+				<caller organisation="org.http4s" name="http4s-core_2.12" conf="compile, runtime" rev="2.1.3" rev-constraint-default="2.1.3" rev-constraint-dynamic="2.1.3" callerrev="0.15.0a"/>
+				<artifacts>
+					<artifact name="parboiled_2.12" type="jar" ext="jar" status="no" details="" size="930346" time="0" location="/home/ubuntu/.ivy2/cache/org.parboiled/parboiled_2.12/jars/parboiled_2.12-2.1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/parboiled/parboiled_2.12/2.1.3/parboiled_2.12-2.1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.12">
+			<revision name="2.3.2" status="release" pubdate="20161102095049" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3226" time="0" location="/home/ubuntu/.ivy2/cache/com.chuusai/shapeless_2.12/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2.pom"/>
+				<caller organisation="org.parboiled" name="parboiled_2.12" conf="compile, runtime" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="2.1.3"/>
+				<artifacts>
+					<artifact name="shapeless_2.12" type="bundle" ext="jar" status="no" details="" size="2829843" time="0" location="/home/ubuntu/.ivy2/cache/com.chuusai/shapeless_2.12/bundles/shapeless_2.12-2.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.12">
+			<revision name="1.1.1" status="release" pubdate="20161102084258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="/home/ubuntu/.ivy2/cache/org.typelevel/macro-compat_2.12/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
+				<caller organisation="com.chuusai" name="shapeless_2.12" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.3.2"/>
+				<caller organisation="org.http4s" name="http4s-core_2.12" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.15.0a"/>
+				<artifacts>
+					<artifact name="macro-compat_2.12" type="jar" ext="jar" status="no" details="" size="3180" time="0" location="/home/ubuntu/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.log4s" name="log4s_2.12">
+			<revision name="1.3.3" status="release" pubdate="20161103183433" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://log4s.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3209" time="0" location="/home/ubuntu/.ivy2/cache/org.log4s/log4s_2.12/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/log4s/log4s_2.12/1.3.3/log4s_2.12-1.3.3.pom"/>
+				<caller organisation="org.http4s" name="blaze-core_2.12" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.12.4"/>
+				<caller organisation="org.http4s" name="http4s-core_2.12" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.15.0a"/>
+				<caller organisation="org.http4s" name="blaze-http_2.12" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.12.4"/>
+				<artifacts>
+					<artifact name="log4s_2.12" type="jar" ext="jar" status="no" details="" size="65660" time="0" location="/home/ubuntu/.ivy2/cache/org.log4s/log4s_2.12/jars/log4s_2.12-1.3.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/log4s/log4s_2.12/1.3.3/log4s_2.12-1.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.21" status="release" pubdate="20160404183640" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/home/ubuntu/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.pom"/>
+				<caller organisation="org.slf4j" name="slf4j-simple" conf="default, compile, runtime, master" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.6.4"/>
+				<caller organisation="org.log4s" name="log4s_2.12" conf="compile, runtime" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="1.3.3"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41071" time="0" location="/home/ubuntu/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.6.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.21"/>
+				<caller organisation="org.slf4j" name="slf4j-simple" conf="default, compile, runtime, master" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.6.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.http4s" name="http4s-websocket_2.12">
+			<revision name="0.1.6" status="release" pubdate="20161105013406" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/http4s/http4s-websocket" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2826" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/http4s-websocket_2.12/ivy-0.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/http4s/http4s-websocket_2.12/0.1.6/http4s-websocket_2.12-0.1.6.pom"/>
+				<caller organisation="org.http4s" name="http4s-core_2.12" conf="compile, runtime" rev="0.1.6" rev-constraint-default="0.1.6" rev-constraint-dynamic="0.1.6" callerrev="0.15.0a"/>
+				<caller organisation="org.http4s" name="blaze-http_2.12" conf="compile, runtime" rev="0.1.6" rev-constraint-default="0.1.6" rev-constraint-dynamic="0.1.6" callerrev="0.12.4"/>
+				<artifacts>
+					<artifact name="http4s-websocket_2.12" type="jar" ext="jar" status="no" details="" size="40762" time="0" location="/home/ubuntu/.ivy2/cache/org.http4s/http4s-websocket_2.12/jars/http4s-websocket_2.12-0.1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/http4s/http4s-websocket_2.12/0.1.6/http4s-websocket_2.12-0.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.1" status="release" pubdate="20161205110923" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/ubuntu/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.pom"/>
+				<caller organisation="com.chuusai" name="shapeless_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="2.3.2"/>
+				<caller organisation="org.scalaz" name="scalaz-core_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="7.2.7"/>
+				<caller organisation="org.http4s" name="http4s-argonaut_2.12" conf="default, compile, runtime, master" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.15.0a"/>
+				<caller organisation="org.http4s" name="http4s-jawn_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.15.0a"/>
+				<caller organisation="org.scodec" name="scodec-bits_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="1.1.2"/>
+				<caller organisation="org.scalaz" name="scalaz-effect_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="7.2.7"/>
+				<caller organisation="org.log4s" name="log4s_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="1.3.3"/>
+				<caller organisation="org.http4s" name="http4s-core_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.15.0a"/>
+				<caller organisation="com.example" name="scala_pact_provider_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.0.1"/>
+				<caller organisation="org.http4s" name="http4s-blaze-server_2.12" conf="default, compile, runtime, master" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.15.0a"/>
+				<caller organisation="org.http4s" name="jawn-streamz_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.10.1a"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="2.12.1"/>
+				<caller organisation="org.parboiled" name="parboiled_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="2.1.3"/>
+				<caller organisation="org.spire-math" name="jawn-parser_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.10.3"/>
+				<caller organisation="org.http4s" name="blaze-core_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.12.4"/>
+				<caller organisation="org.http4s" name="http4s-dsl_2.12" conf="default, compile, runtime, master" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.15.0a"/>
+				<caller organisation="org.http4s" name="http4s-server_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.15.0a"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="1.0.5"/>
+				<caller organisation="org.http4s" name="http4s-blaze-core_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.15.0a"/>
+				<caller organisation="org.scalaz" name="scalaz-concurrent_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="7.2.7"/>
+				<caller organisation="org.scalaz.stream" name="scalaz-stream_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.8.6a"/>
+				<caller organisation="org.http4s" name="http4s-websocket_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.1.6"/>
+				<caller organisation="org.typelevel" name="macro-compat_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="1.1.1"/>
+				<caller organisation="org.http4s" name="blaze-http_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="0.12.4"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5272325" time="0" location="/home/ubuntu/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

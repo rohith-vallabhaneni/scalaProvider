@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?><testsuite hostname="" name="Consumer - Provider" tests="1" errors="0" failures="0" time="1.504380913293802E12">
+        <properties></properties><testcase classname="" name="Fetching User" time="0.0"></testcase><system-out></system-out>
+        <system-err></system-err>
+      </testsuite>

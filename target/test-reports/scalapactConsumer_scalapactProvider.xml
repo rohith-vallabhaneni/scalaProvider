@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?><testsuite hostname="" name="scala_pact_Consumer - scala_pact_Provider" tests="1" errors="0" failures="1" time="1.504485849316968E12">
+        <properties></properties><testcase classname="" name="Failure" time="0.0">
+      <failure message="No matching response for: 'Fetching User'
+Expected:
+{
+  &quot;status&quot; : 200,
+  &quot;body&quot; : &quot;{\&quot;id\&quot;:1,\&quot;name\&quot;:\&quot;Jon\&quot;}&quot;
+}
+Actual:
+No matching response for: InteractionResponse(Some(200),Some(Map(Content-Type -&gt; application/json; charset=UTF-8, Date -&gt; Thu, 21 Sep 2017 11:04:01 GMT, Content-Length -&gt; 22)),Some({&quot;id&quot;:1,&quot;name&quot;:&quot;John&quot;}),None)
+---
+       " type="Pact validation error">No matching response for: 'Fetching User'
+Expected:
+{
+  &quot;status&quot; : 200,
+  &quot;body&quot; : &quot;{\&quot;id\&quot;:1,\&quot;name\&quot;:\&quot;Jon\&quot;}&quot;
+}
+Actual:
+No matching response for: InteractionResponse(Some(200),Some(Map(Content-Type -&gt; application/json; charset=UTF-8, Date -&gt; Thu, 21 Sep 2017 11:04:01 GMT, Content-Length -&gt; 22)),Some({&quot;id&quot;:1,&quot;name&quot;:&quot;John&quot;}),None)
+---
+       </failure>
+    </testcase><system-out></system-out>
+        <system-err></system-err>
+      </testsuite>

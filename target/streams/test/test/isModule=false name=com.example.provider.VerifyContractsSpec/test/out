@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0m[32mVerifyContractsSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mVerifying Consumer Contracts[0m[0m
+[0m[[0minfo[0m] [0m[31m- should be able to verify it's contracts *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  com.itv.scalapact.ScalaPactVerify$ScalaPactVerifyFailed:[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.itv.scalapact.ScalaPactVerify$verifyPact$ScalaPactVerifyRunner.doVerification(ScalaPactVerify.scala:135)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.itv.scalapact.ScalaPactVerify$verifyPact$ScalaPactVerifyRunner.runVerificationAgainst(ScalaPactVerify.scala:34)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at com.example.provider.VerifyContractsSpec.$anonfun$new$2(VerifyContractsSpec.scala:32)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.FunSpecLike$$anon$1.apply(FunSpecLike.scala:454)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
